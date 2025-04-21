@@ -1,0 +1,27 @@
+body{
+ background-color: #fff;
+
+}
+
+a-scene{
+    width: 100%;
+    height: 100vh;
+
+}
+
+#environment-select{
+    position: absolute;
+    top:10vh;
+    left:10vh;
+    background: rgba(67, 1, 105, 0.5);
+    padding: 10px;
+    font-size: Arial,sans-serif;
+    font-size: 12px;
+    box-shadow: 0px 4px 6px rgba(9, 1, 13, 0.5);
+    z-index: 9999;
+}
+
+select{
+    font-size: 12px;
+    padding: 5px;
+}

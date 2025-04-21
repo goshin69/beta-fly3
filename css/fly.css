@@ -1,0 +1,35 @@
+body{
+    background-color: #fff;
+}
+
+a-scene{
+    width: 100%;
+    height: 100vh;
+}
+
+#environment-selector{
+    position:absolute;
+    top:10vh;
+    left:10vw;
+    background: rgba(109, 10, 165, 0.5);
+    box-shadow: 0px 4px 6px rgba(53, 53, 53, 0.5);
+    z-index: 9999;
+    color:#fff;
+    padding:5px;
+    border-bottom-right-radius: 10px;
+
+}
+
+select{
+    background: #ffffff;
+    color:#000000;
+    font-size:14px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid #f97a03;
+    scrollbar-color: #f97a03;
+
+}
+
+select::-webkit-scrollbar {
+    width: 6px;
+  }
